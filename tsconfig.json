@@ -10,5 +10,11 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
   "include": ["src"]
 }
